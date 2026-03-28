@@ -1,6 +1,7 @@
 {
   "repo": "via-decide/kup-ai-systems-lab",
   "mode": "codex_then_antigravity",
+  "branch": "simba/design-the-digital-twin-architecture-specificati",
   "branch": "simba/create-kup-ai-systems-lab-brand-positioning-docu",
   "files_to_create": [
     "codex-task.md",
