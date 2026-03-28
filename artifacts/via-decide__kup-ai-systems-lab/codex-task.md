@@ -5,6 +5,10 @@ Design the digital twin architecture specification.
 
 CONSTRAINTS
 Must produce synthetic data that matches real piezoelectric sensor characteristics (consult domain expert). Must be reproducible (seeded random number generation). Must output 1M+ passages without hardware issues.
+Create KUP AI Systems Lab brand & positioning document. Write a 2-page positioning statement: "KUP AI Systems Lab: Building Resilient AI Infrastructure for Extreme Environments" Define the three research outputs: (a) Data Drift in Extreme Climate, (b) Kutch Tire Anomaly Detection Dataset (KTA), (c) Data-Centric AI in Physical Infrastructure. Map three founder outcome paths: (a) Infrastructure Startup (TPM company), (b) Research Venture (sensor AI datasets), (c) Deep Tech (edge AI platform). Create the "Why Kutch?" narrative: Deendayal Port adjacent, extreme climate (20-48°C), highway network, logistics hub. Draft three stakeholder narratives: (a) Government (NHAI), (b) Investors (ROI on AI), (c) Researchers (open datasets + papers).
+
+CONSTRAINTS
+Positioning must differentiate from bootcamps (e.g., Y Combinator focuses on rapid scaling; KUP focuses on resilient AI + research). Each narrative must be <500 words.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.

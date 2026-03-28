@@ -5,6 +5,7 @@ Validate and repair only the files touched by the previous implementation.
 
 TASK
 Design the digital twin architecture specification.
+Create KUP AI Systems Lab brand & positioning document. Write a 2-page positioning statement: "KUP AI Systems Lab: Building Resilient AI Infrastructure for Extreme Environments" Define the three research outputs: (a) Data Drift in Extreme Climate, (b) Kutch Tire Anomaly Detection Dataset (KTA), (c) Data-Centric AI in Physical Infrastructure. Map three founder outcome paths: (a) Infrastructure Startup (TPM company), (b) Research Venture (sensor AI datasets), (c) Deep Tech (edge AI platform). Create the "Why Kutch?" narrative: Deendayal Port adjacent, extreme climate (20-48°C), highway network, logistics hub. Draft three stakeholder narratives: (a) Government (NHAI), (b) Investors (ROI on AI), (c) Researchers (open datasets + papers).
 
 RULES
 1. Audit touched files first and identify regressions.

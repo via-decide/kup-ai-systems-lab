@@ -4,6 +4,12 @@ Title: Design the digital twin architecture specification.
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
 - Goal: Complete specification for founding team to build digital twin. Week 1 can begin data collection (simulated) immediately.
+Branch: simba/create-kup-ai-systems-lab-brand-positioning-docu
+Title: Create KUP AI Systems Lab brand & positioning document. Write a 2-pag...
+
+## Summary
+- Repo orchestration task for via-decide/kup-ai-systems-lab
+- Goal: Establish KUP as a research + startup creation ecosystem, not a coding bootcamp.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
