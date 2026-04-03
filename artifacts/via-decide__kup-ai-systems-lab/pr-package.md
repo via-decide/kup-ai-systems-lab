@@ -1,9 +1,9 @@
-Branch: simba/implement-the-predictive-traffic-intelligence-en
-Title: Implement the 'Predictive Traffic Intelligence Engine' in src/simulat...
+Branch: simba/implement-the-autonomous-infrastructure-schedule
+Title: Implement the 'Autonomous Infrastructure Scheduler' in src/orchestrat...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement the 'Predictive Traffic Intelligence Engine' in src/simulation/traffic-predictor.py.
+- Goal: Implement the 'Autonomous Infrastructure Scheduler' in src/orchestrator/sovereign-scheduler.py.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

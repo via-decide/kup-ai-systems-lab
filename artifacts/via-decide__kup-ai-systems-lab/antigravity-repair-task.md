@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Predictive Traffic Intelligence Engine' in src/simulation/traffic-predictor.py.
+Implement the 'Autonomous Infrastructure Scheduler' in src/orchestrator/sovereign-scheduler.py.
 
 RULES
 1. Audit touched files first and identify regressions.
