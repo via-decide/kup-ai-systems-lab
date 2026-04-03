@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-systems-lab",
   "mode": "codex_then_antigravity",
-  "branch": "simba/build-the-port-logistics-adapter-in-srctemplates",
+  "branch": "simba/implement-the-regional-calibrator-in-srcexpansio",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
