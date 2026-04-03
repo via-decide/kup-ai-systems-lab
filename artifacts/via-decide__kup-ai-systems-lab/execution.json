@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-systems-lab",
   "mode": "codex_then_antigravity",
-  "branch": "simba/implement-ensemble-voting-in-srcenginemodel-cons",
+  "branch": "simba/build-the-visual-refinery-in-srcvisionthermal-ve",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
