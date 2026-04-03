@@ -1,9 +1,9 @@
-Branch: simba/build-the-hardware-immune-system-in-srcpowerresi
-Title: Build the 'Hardware-Immune-System' in src/power/resilience-monitor.py.
+Branch: simba/implement-the-traffic-density-predictor-in-srcpr
+Title: Implement the 'Traffic-Density-Predictor' in src/predictive/traffic_m...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Build the 'Hardware-Immune-System' in src/power/resilience-monitor.py.
+- Goal: Implement the 'Traffic-Density-Predictor' in src/predictive/traffic_model.py.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
