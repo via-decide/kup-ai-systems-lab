@@ -1,9 +1,9 @@
-Branch: simba/build-the-drift-debugger-in-srcdebugcontext-rot-
-Title: Build the 'Drift Debugger' in src/debug/context-rot-detect.py. Develo...
+Branch: simba/implement-the-thermal-stress-profiler-in-srcbenc
+Title: Implement the 'Thermal Stress Profiler' in src/benchmarks/power-therm...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Build the 'Drift Debugger' in src/debug/context-rot-detect.py. Develop a script that calculates the "Semantic Entropy" of the LLM's output. If the entropy score spikes (indicating the model is guessing rather than reasoning), flag the specific sensor passage for manual re-labeling.
+- Goal: Implement the 'Thermal Stress Profiler' in src/benchmarks/power-thermal.py. Calculate the thermal dissipation requirement using the formula: $R_{th} = \frac{T_{junction} - T_{ambient}}{P_{total}}$.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

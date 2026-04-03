@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Drift Debugger' in src/debug/context-rot-detect.py. Develop a script that calculates the "Semantic Entropy" of the LLM's output. If the entropy score spikes (indicating the model is guessing rather than reasoning), flag the specific sensor passage for manual re-labeling.
+Implement the 'Thermal Stress Profiler' in src/benchmarks/power-thermal.py. Calculate the thermal dissipation requirement using the formula: $R_{th} = \frac{T_{junction} - T_{ambient}}{P_{total}}$.
 
 RULES
 1. Audit touched files first and identify regressions.
