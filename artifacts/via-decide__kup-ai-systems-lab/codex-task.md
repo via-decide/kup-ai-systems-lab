@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Build the 'Hardware-Immune-System' in src/power/resilience-monitor.py.
+Implement the 'Traffic-Density-Predictor' in src/predictive/traffic_model.py.
 
 CONSTRAINTS
-- Trigger 'Predictive Migration' if $T_{junction} > 95^{\circ}C$ for $> 300s$. - Use the 'Sovereign' failover protocol: $\text{Node}_{A} \rightarrow \text{Node}_{B}$ with 0-packet loss. - Log "IMMUNE_RESPONSE: HARDWARE_FATIGUE_DETECTED | MIGRATING_STATE".
+- Use a rolling time-window model to estimate vehicle density. - Forecast traffic flow for the next 300 seconds.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
@@ -17,7 +17,7 @@ PROCESS (MANDATORY)
 
 REPO AUDIT CONTEXT
 - Description: 
-- Primary language: unknown
+- Primary language: Python
 - README snippet:
 # kup-ai-systems-lab
 
