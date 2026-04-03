@@ -1,8 +1,7 @@
 {
   "repo": "via-decide/kup-ai-systems-lab",
   "mode": "codex_then_antigravity",
-  "branch": "simba/design-the-digital-twin-architecture-specificati",
-  "branch": "simba/create-kup-ai-systems-lab-brand-positioning-docu",
+  "branch": "simba/build-the-edge-architect-agent-template-in-srcte",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
