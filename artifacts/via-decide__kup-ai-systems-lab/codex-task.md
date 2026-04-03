@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement the 'Predictive Traffic Intelligence Engine' in src/simulation/traffic-predictor.py.
+Implement the 'Autonomous Infrastructure Scheduler' in src/orchestrator/sovereign-scheduler.py.
 
 CONSTRAINTS
-- Forecast vehicle density using rolling Markov model. - Predict congestion probability 5 minutes ahead. - Integrate sensor inputs from RSU nodes.
+- Design a priority queue capable of handling 100k infrastructure events per minute. - Implement dynamic task arbitration between: SENSOR_NETWORK TRAFFIC_ENGINE INFRASTRUCTURE_AI - Use adaptive load balancing formula: Load_factor = Events_per_sec / Node_capacity - If Load_factor > 0.9 trigger emergency compute burst. - Log "SCHEDULER_STATE: AUTONOMOUS_INFRASTRUCTURE_COORDINATION_ACTIVE".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
