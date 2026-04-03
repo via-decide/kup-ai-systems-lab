@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Build the 'DeepStream Vision Core' in src/vision/deepstream-pipeline.c. Integrate NVIDIA DeepStream SDK to process live camera feeds from the highway sensors. The pipeline must perform real-time tire segmentation and thermal anomaly detection.
+Implement the 'Regional Rollout Engine' in src/expansion/national-deploy.js. Create a configuration-driven deployment script that clones the 'Kutch Reference Architecture' for new geographical zones. [span_5](start_span)[span_6](start_span)constraints: The script must adjust the 'Scenario 2' chaos parameters automatically based on local climate data (e.g., adjusting the temperature drift threshold for Rajasthan's heat).[span_5](end_span)[span_6](end_span)
 
 CONSTRAINTS
-Ensure metadata from the vision pipeline is injected back into the Vora LLM for "Context-Engineered" alerts. The throughput must maintain <30ms latency for vehicle speeds up to 120km/h.
+Preserve existing code; prefer additive changes.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
