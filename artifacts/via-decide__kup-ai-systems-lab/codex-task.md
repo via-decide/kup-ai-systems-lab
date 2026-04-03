@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement 'Ensemble-Voting' in src/engine/model-consensus.js. Aggregate predictions from the 3 local agents.
+Build the 'Visual-Refinery' in src/vision/thermal-verify.js. Use the Jetson's ISP to detect the 'IR-Blur' around a moving tire.
 
 CONSTRAINTS
-Preserve existing code; prefer additive changes.
+- Cross-reference visual 'Heat Pixels' against the $P/T$ drift estimate. - If divergence $> 15\%$, trigger a 'Sensor-Audit' alert. - Log "FUSION CHECK: PHYSICAL_TRUTH_VERIFIED".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
