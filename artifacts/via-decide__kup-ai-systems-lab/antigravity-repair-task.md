@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Vision Translator' in src/vision/metadata-bridge.js. Extract the JSON metadata from the DeepStream inference (e.g., bounding box confidence, thermal heat-map delta) and inject it as a "Vision Context" into the Vora LLM prompt.
+Build the 'Thermal Sync' utility in src/bridge/jetson-thermal-check.py. Run the Kalman-filtered inference on the Jetson Orin NX and measure the $T_{junction}$ (junction temperature) and $J_{load}$ (GPU load).
 
 RULES
 1. Audit touched files first and identify regressions.

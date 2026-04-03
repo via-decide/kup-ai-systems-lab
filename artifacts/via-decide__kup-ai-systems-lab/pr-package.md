@@ -1,9 +1,9 @@
-Branch: simba/build-the-vision-translator-in-srcvisionmetadata
-Title: Build the 'Vision Translator' in src/vision/metadata-bridge.js. Extra...
+Branch: simba/build-the-thermal-sync-utility-in-srcbridgejetso
+Title: Build the 'Thermal Sync' utility in src/bridge/jetson-thermal-check.p...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Build the 'Vision Translator' in src/vision/metadata-bridge.js. Extract the JSON metadata from the DeepStream inference (e.g., bounding box confidence, thermal heat-map delta) and inject it as a "Vision Context" into the Vora LLM prompt.
+- Goal: Build the 'Thermal Sync' utility in src/bridge/jetson-thermal-check.py. Run the Kalman-filtered inference on the Jetson Orin NX and measure the $T_{junction}$ (junction temperature) and $J_{load}$ (GPU load).
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

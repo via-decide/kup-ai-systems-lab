@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Build the 'Vision Translator' in src/vision/metadata-bridge.js. Extract the JSON metadata from the DeepStream inference (e.g., bounding box confidence, thermal heat-map delta) and inject it as a "Vision Context" into the Vora LLM prompt.
+Build the 'Thermal Sync' utility in src/bridge/jetson-thermal-check.py. Run the Kalman-filtered inference on the Jetson Orin NX and measure the $T_{junction}$ (junction temperature) and $J_{load}$ (GPU load).
 
 CONSTRAINTS
-Use the Sovereign theme to log "VISION SYNC: [VEHICLE_ID] | CONFIDENCE: [X]%". This allows the LLM to "see" the tire anomaly before it reaches the pressure sensors.
+- If $T_{junction} > 85^{\circ}C$, the 'Jetson Optimizer' agent must trigger a "Frequency Cap" to prevent hardware throttling while maintaining >80% accuracy. - Compare the "Simulated Latency" vs "Actual Hardware Latency" in the Sovereign terminal.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
