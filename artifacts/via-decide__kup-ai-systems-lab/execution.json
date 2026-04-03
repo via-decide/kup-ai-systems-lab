@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-systems-lab",
   "mode": "codex_then_antigravity",
-  "branch": "simba/build-the-deepstream-vision-core-in-srcvisiondee",
+  "branch": "simba/implement-the-regional-rollout-engine-in-srcexpa",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
