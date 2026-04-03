@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Build the 'Drift Debugger' in src/debug/context-rot-detect.py. Develop a script that calculates the "Semantic Entropy" of the LLM's output. If the entropy score spikes (indicating the model is guessing rather than reasoning), flag the specific sensor passage for manual re-labeling.
+Implement the 'Thermal Stress Profiler' in src/benchmarks/power-thermal.py. Calculate the thermal dissipation requirement using the formula: $R_{th} = \frac{T_{junction} - T_{ambient}}{P_{total}}$.
 
 CONSTRAINTS
-Use the LaTeX formula for Entropy: $H(X) = -\sum_{i=1}^{n} P(x_i) \log P(x_i)$. Log the "Entropy Spike" in the Sovereign terminal to alert the founder.
+Simulate a $48^{\circ}C$ ambient temperature and log the predicted $T_{junction}$ for the Jetson Orin at 100% GPU load. If $T_{junction} > 95^{\circ}C$, the 'Jetson Optimizer' agent must output a cooling-fan or heat-sink recommendation.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
