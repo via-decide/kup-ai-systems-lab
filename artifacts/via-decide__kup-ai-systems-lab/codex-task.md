@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement the 'Thermal Stress Profiler' in src/benchmarks/power-thermal.py. Calculate the thermal dissipation requirement using the formula: $R_{th} = \frac{T_{junction} - T_{ambient}}{P_{total}}$.
+Implement the 'Inference Gatekeeper' in src/vision/logic-gate.c. Using NVIDIA DeepStream, create a trigger that only activates full model inference if the "Motion Delta" or "Thermal Gradient" exceeds a specific threshold.
 
 CONSTRAINTS
-Simulate a $48^{\circ}C$ ambient temperature and log the predicted $T_{junction}$ for the Jetson Orin at 100% GPU load. If $T_{junction} > 95^{\circ}C$, the 'Jetson Optimizer' agent must output a cooling-fan or heat-sink recommendation.
+Calculate the "Inference Energy Savings" ($E_{saved} = P_{full} \times (1 - \text{DutyCycle})$). Log the savings to the Sovereign terminal. This is critical for the "Cost-per-lane" metric in the NHAI brief.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
