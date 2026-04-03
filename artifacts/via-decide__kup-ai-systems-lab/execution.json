@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-systems-lab",
   "mode": "codex_then_antigravity",
-  "branch": "simba/build-the-hardware-immune-system-in-srcpowerresi",
+  "branch": "simba/implement-the-traffic-density-predictor-in-srcpr",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
