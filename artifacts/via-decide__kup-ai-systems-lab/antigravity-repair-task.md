@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Site Topology Sync' in src/sim/topology-mapper.js. Map the physical locations of NHAI sensors, cameras, and Jetson Orin cabinets into the Digital Twin environment.
+Build the 'Drift Debugger' in src/debug/context-rot-detect.py. Develop a script that calculates the "Semantic Entropy" of the LLM's output. If the entropy score spikes (indicating the model is guessing rather than reasoning), flag the specific sensor passage for manual re-labeling.
 
 RULES
 1. Audit touched files first and identify regressions.
