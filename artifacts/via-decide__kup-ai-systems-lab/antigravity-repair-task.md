@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Multi-Lane Fleet Controller' in src/scaling/lane-orchestrator.js. This module must aggregate real-time TPM data from 20+ distributed edge nodes (Jetson Orins) into a single central dashboard.
+Create the 'Hardware Provisioning' script in scripts/setup-jetson.sh. This script should automate the installation of the Zayvora-Edge environment on the Jetson Orin NX, including the local inference engine and the 'Hardware-In-The-Loop' bridge.
 
 RULES
 1. Audit touched files first and identify regressions.
