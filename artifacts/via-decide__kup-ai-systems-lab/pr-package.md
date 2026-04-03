@@ -1,9 +1,9 @@
-Branch: simba/create-the-hardware-provisioning-script-in-scrip
-Title: Create the 'Hardware Provisioning' script in scripts/setup-jetson.sh....
+Branch: simba/build-the-tensorrt-optimizer-in-srcoptimizationt
+Title: Build the 'TensorRT Optimizer' in src/optimization/trt-quantizer.py. ...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Create the 'Hardware Provisioning' script in scripts/setup-jetson.sh. This script should automate the installation of the Zayvora-Edge environment on the Jetson Orin NX, including the local inference engine and the 'Hardware-In-The-Loop' bridge.
+- Goal: Build the 'TensorRT Optimizer' in src/optimization/trt-quantizer.py. Develop a script that automatically converts PyTorch/ONNX models to TensorRT engines with INT8 quantization, specifically tuned for the Jetson Orin NX architecture.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
