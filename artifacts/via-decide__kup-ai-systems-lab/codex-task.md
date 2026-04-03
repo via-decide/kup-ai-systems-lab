@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Create the 'Hardware Provisioning' script in scripts/setup-jetson.sh. This script should automate the installation of the Zayvora-Edge environment on the Jetson Orin NX, including the local inference engine and the 'Hardware-In-The-Loop' bridge.
+Build the 'TensorRT Optimizer' in src/optimization/trt-quantizer.py. Develop a script that automatically converts PyTorch/ONNX models to TensorRT engines with INT8 quantization, specifically tuned for the Jetson Orin NX architecture.
 
 CONSTRAINTS
-The script must output a "Hardware Readiness Report" formatted for the Sovereign terminal theme. [span_12](start_span)It must specifically check for GPU availability and memory overhead to ensure high-accuracy inference in extreme climates[span_12](end_span).
+The script must output a latency benchmark comparing FP32 vs. INT8. Ensure the output is formatted for the 'Jetson Optimizer' agent to review and validate for "Month 2: 1 Lane" scaling targets.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
