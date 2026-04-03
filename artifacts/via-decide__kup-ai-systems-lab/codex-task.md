@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement the 'Inference Gatekeeper' in src/vision/logic-gate.c. Using NVIDIA DeepStream, create a trigger that only activates full model inference if the "Motion Delta" or "Thermal Gradient" exceeds a specific threshold.
+Build the 'Vision Translator' in src/vision/metadata-bridge.js. Extract the JSON metadata from the DeepStream inference (e.g., bounding box confidence, thermal heat-map delta) and inject it as a "Vision Context" into the Vora LLM prompt.
 
 CONSTRAINTS
-Calculate the "Inference Energy Savings" ($E_{saved} = P_{full} \times (1 - \text{DutyCycle})$). Log the savings to the Sovereign terminal. This is critical for the "Cost-per-lane" metric in the NHAI brief.
+Use the Sovereign theme to log "VISION SYNC: [VEHICLE_ID] | CONFIDENCE: [X]%". This allows the LLM to "see" the tire anomaly before it reaches the pressure sensors.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
