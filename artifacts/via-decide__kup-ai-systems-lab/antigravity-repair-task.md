@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Million-Passage Dashboard' in src/monitor/throughput.js. Track: 1) Passages per second, 2) Token savings (vs. legacy), and 3) M4 Thermal Headroom ($T_{max} - T_{current}$).
+Implement 'Duty-Cycle Management' in src/power/jetson-pulse.py. Create a trigger that only ramps the GPU to 'Max-P' (Performance) mode when the thermal sensor detects a vehicle approach, then returns to 'Quiet' mode.
 
 RULES
 1. Audit touched files first and identify regressions.

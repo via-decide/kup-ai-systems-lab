@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-systems-lab",
   "mode": "codex_then_antigravity",
-  "branch": "simba/build-the-million-passage-dashboard-in-srcmonito",
+  "branch": "simba/implement-duty-cycle-management-in-srcpowerjetso",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",

@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Build the 'Million-Passage Dashboard' in src/monitor/throughput.js. Track: 1) Passages per second, 2) Token savings (vs. legacy), and 3) M4 Thermal Headroom ($T_{max} - T_{current}$).
+Implement 'Duty-Cycle Management' in src/power/jetson-pulse.py. Create a trigger that only ramps the GPU to 'Max-P' (Performance) mode when the thermal sensor detects a vehicle approach, then returns to 'Quiet' mode.
 
 CONSTRAINTS
-If throughput drops below 500 passages/sec, automatically trigger the 'Context-Refinery' to strip optional metadata from the stream.
+- Calculate the total power saved in Watts ($W$) per 24-hour cycle. - Log "POWER SAVED: [X]Wh | SILICON LIFE EXTENDED" in the Sovereign terminal.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.

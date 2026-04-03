@@ -1,9 +1,9 @@
-Branch: simba/build-the-million-passage-dashboard-in-srcmonito
-Title: Build the 'Million-Passage Dashboard' in src/monitor/throughput.js. T...
+Branch: simba/implement-duty-cycle-management-in-srcpowerjetso
+Title: Implement 'Duty-Cycle Management' in src/power/jetson-pulse.py. Creat...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Build the 'Million-Passage Dashboard' in src/monitor/throughput.js. Track: 1) Passages per second, 2) Token savings (vs. legacy), and 3) M4 Thermal Headroom ($T_{max} - T_{current}$).
+- Goal: Implement 'Duty-Cycle Management' in src/power/jetson-pulse.py. Create a trigger that only ramps the GPU to 'Max-P' (Performance) mode when the thermal sensor detects a vehicle approach, then returns to 'Quiet' mode.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
