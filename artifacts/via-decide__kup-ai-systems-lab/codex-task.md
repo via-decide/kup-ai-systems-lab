@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Build the 'Sovereign-Mesh' sync in src/network/gossip-sync.js. Implement a protocol where each Mac Mini shares its local 'Anomaly Signatures' with the 3 nearest nodes.
+Implement 'Ensemble-Voting' in src/engine/model-consensus.js. Aggregate predictions from the 3 local agents.
 
 CONSTRAINTS
-- Use UDP for low-latency broadcast. - Implement entropy-based filtering to ensure only high-signal signatures are synced: $H = -\sum p_i \log p_i$. - Log "MESH SYNC: [NODE_ID] -> [PEER_ID] | 100% SIGNAL".
+Preserve existing code; prefer additive changes.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
