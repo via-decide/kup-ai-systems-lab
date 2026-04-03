@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Build the 'Thermal Sync' utility in src/bridge/jetson-thermal-check.py. Run the Kalman-filtered inference on the Jetson Orin NX and measure the $T_{junction}$ (junction temperature) and $J_{load}$ (GPU load).
+Build the 'Million-Passage Dashboard' in src/monitor/throughput.js. Track: 1) Passages per second, 2) Token savings (vs. legacy), and 3) M4 Thermal Headroom ($T_{max} - T_{current}$).
 
 CONSTRAINTS
-- If $T_{junction} > 85^{\circ}C$, the 'Jetson Optimizer' agent must trigger a "Frequency Cap" to prevent hardware throttling while maintaining >80% accuracy. - Compare the "Simulated Latency" vs "Actual Hardware Latency" in the Sovereign terminal.
+If throughput drops below 500 passages/sec, automatically trigger the 'Context-Refinery' to strip optional metadata from the stream.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
