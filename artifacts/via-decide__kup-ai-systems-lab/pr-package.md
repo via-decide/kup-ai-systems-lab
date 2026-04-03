@@ -1,9 +1,9 @@
-Branch: simba/implement-the-physical-stream-ingestor-in-srcbri
-Title: Implement the 'Physical Stream Ingestor' in src/bridge/nhai-sync.js. ...
+Branch: simba/build-the-sovereign-mesh-sync-in-srcnetworkgossi
+Title: Build the 'Sovereign-Mesh' sync in src/network/gossip-sync.js. Implem...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement the 'Physical Stream Ingestor' in src/bridge/nhai-sync.js. Create a secure WebSocket listener that maps raw telemetry from the NH-41 physical sensors (Kistler WIM + Thermal Cameras) into the 'Scenario 2' refinery.
+- Goal: Build the 'Sovereign-Mesh' sync in src/network/gossip-sync.js. Implement a protocol where each Mac Mini shares its local 'Anomaly Signatures' with the 3 nearest nodes.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
