@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Traffic-Density-Predictor' in src/predictive/traffic_model.py.
+Implement the 'DigitalTwin-Orchestrator' in src/digital_twin/twin_controller.py.
 
 RULES
 1. Audit touched files first and identify regressions.
