@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement the 'Physical Stream Ingestor' in src/bridge/nhai-sync.js. Create a secure WebSocket listener that maps raw telemetry from the NH-41 physical sensors (Kistler WIM + Thermal Cameras) into the 'Scenario 2' refinery.
+Build the 'Sovereign-Mesh' sync in src/network/gossip-sync.js. Implement a protocol where each Mac Mini shares its local 'Anomaly Signatures' with the 3 nearest nodes.
 
 CONSTRAINTS
-- Use the 'Sovereign' Auth-Token system to prevent unauthorized data injection. - Log "PHYSICAL SYNC ACTIVE: [SITE_ID]" in the terminal. - Ensure the 'Edge Architect' agent validates that real-world noise matches the $D_{KL}$ simulated baseline.
+- Use UDP for low-latency broadcast. - Implement entropy-based filtering to ensure only high-signal signatures are synced: $H = -\sum p_i \log p_i$. - Log "MESH SYNC: [NODE_ID] -> [PEER_ID] | 100% SIGNAL".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
