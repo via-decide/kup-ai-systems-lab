@@ -1,9 +1,9 @@
-Branch: simba/build-the-visual-refinery-in-srcvisionthermal-ve
-Title: Build the 'Visual-Refinery' in src/vision/thermal-verify.js. Use the ...
+Branch: simba/build-the-hardware-immune-system-in-srcpowerresi
+Title: Build the 'Hardware-Immune-System' in src/power/resilience-monitor.py.
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Build the 'Visual-Refinery' in src/vision/thermal-verify.js. Use the Jetson's ISP to detect the 'IR-Blur' around a moving tire.
+- Goal: Build the 'Hardware-Immune-System' in src/power/resilience-monitor.py.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
