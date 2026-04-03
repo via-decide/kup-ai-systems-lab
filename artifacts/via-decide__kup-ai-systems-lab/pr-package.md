@@ -1,9 +1,9 @@
-Branch: simba/implement-the-jetson-optimizer-in-srcbridgetrt-e
-Title: Implement the 'Jetson Optimizer' in src/bridge/trt-exporter.py. Creat...
+Branch: simba/implement-the-site-topology-sync-in-srcsimtopolo
+Title: Implement the 'Site Topology Sync' in src/sim/topology-mapper.js. Map...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement the 'Jetson Optimizer' in src/bridge/trt-exporter.py. Create a pipeline that takes the best-performing founder model and converts it into a TensorRT engine for the Jetson Orin NX.
+- Goal: Implement the 'Site Topology Sync' in src/sim/topology-mapper.js. Map the physical locations of NHAI sensors, cameras, and Jetson Orin cabinets into the Digital Twin environment.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
