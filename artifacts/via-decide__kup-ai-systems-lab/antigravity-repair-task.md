@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Hardware-Immune-System' in src/power/resilience-monitor.py.
+Implement the 'Traffic-Density-Predictor' in src/predictive/traffic_model.py.
 
 RULES
 1. Audit touched files first and identify regressions.
