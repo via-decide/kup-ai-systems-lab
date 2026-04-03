@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement the 'Regional Calibrator' in src/expansion/heat-calibration.js. Create a script that automatically adjusts the 'Scenario 2' chaos parameters (temperature-drift thresholds) based on local meteorological data for the new deployment zone.
+Implement the 'Jetson Optimizer' in src/bridge/trt-exporter.py. Create a pipeline that takes the best-performing founder model and converts it into a TensorRT engine for the Jetson Orin NX.
 
 CONSTRAINTS
-The script must adjust the Vora LLM's protocol weights to account for higher ambient temperatures (up to 50°C in Rajasthan). Use the Sovereign theme to log "ENVIRONMENTAL TUNING APPLIED: [STATE_NAME]".
+Measure and log the "Inference Latency" ($ms$) and "Power Consumption" ($W$). Ensure the Sovereign theme logs a "READY FOR NHAI PILOT" status once latency is <30ms.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
