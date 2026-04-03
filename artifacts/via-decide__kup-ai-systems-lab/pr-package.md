@@ -1,9 +1,9 @@
-Branch: simba/build-the-sovereign-mesh-sync-in-srcnetworkgossi
-Title: Build the 'Sovereign-Mesh' sync in src/network/gossip-sync.js. Implem...
+Branch: simba/implement-ensemble-voting-in-srcenginemodel-cons
+Title: Implement 'Ensemble-Voting' in src/engine/model-consensus.js. Aggrega...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Build the 'Sovereign-Mesh' sync in src/network/gossip-sync.js. Implement a protocol where each Mac Mini shares its local 'Anomaly Signatures' with the 3 nearest nodes.
+- Goal: Implement 'Ensemble-Voting' in src/engine/model-consensus.js. Aggregate predictions from the 3 local agents.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
