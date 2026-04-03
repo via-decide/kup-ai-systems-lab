@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Build the 'TensorRT Optimizer' in src/optimization/trt-quantizer.py. Develop a script that automatically converts PyTorch/ONNX models to TensorRT engines with INT8 quantization, specifically tuned for the Jetson Orin NX architecture.
+Create the 'National Rollout Blueprint' generator in src/expansion/rollout-template.js. This module must pull data-centric AI reference architectures and edge inference cost-benchmarks from the lab's history and compile them into a ready-to-deploy RFP (Request for Proposal) template. [span_9](start_span)constraints: Ensure the blueprint emphasizes why the "Kutch Extreme Climate" proof-of-concept makes the system robust for any tropical or subtropical region[span_9](end_span).
 
 CONSTRAINTS
-The script must output a latency benchmark comparing FP32 vs. INT8. Ensure the output is formatted for the 'Jetson Optimizer' agent to review and validate for "Month 2: 1 Lane" scaling targets.
+Preserve existing code; prefer additive changes.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
