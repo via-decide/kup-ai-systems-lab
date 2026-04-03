@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement the 'Sanjiwani Health Monitor' in src/monitoring/system-health.js. [span_13](start_span)[span_14](start_span)This module must ping the Mac Mini's local LLM (Vora), the SQLite database, the Telegram Bot, and the Jetson HITL bridge every 60 seconds[span_13](end_span)[span_14](end_span).
+Build the 'DeepStream Vision Core' in src/vision/deepstream-pipeline.c. Integrate NVIDIA DeepStream SDK to process live camera feeds from the highway sensors. The pipeline must perform real-time tire segmentation and thermal anomaly detection.
 
 CONSTRAINTS
-If any core pillar of the KUP pipeline fails, the Sovereign terminal must display a "MISSION CRITICAL FAILURE" alert and automatically trigger a backup hand-off to the Claude/Codex API to maintain 99.9% uptime for the 30 founders.
+Ensure metadata from the vision pipeline is injected back into the Vora LLM for "Context-Engineered" alerts. The throughput must maintain <30ms latency for vehicle speeds up to 120km/h.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
