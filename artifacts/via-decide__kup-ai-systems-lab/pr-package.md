@@ -1,9 +1,9 @@
-Branch: simba/implement-the-traffic-density-predictor-in-srcpr
-Title: Implement the 'Traffic-Density-Predictor' in src/predictive/traffic_m...
+Branch: simba/implement-the-digitaltwin-orchestrator-in-srcdig
+Title: Implement the 'DigitalTwin-Orchestrator' in src/digital_twin/twin_con...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement the 'Traffic-Density-Predictor' in src/predictive/traffic_model.py.
+- Goal: Implement the 'DigitalTwin-Orchestrator' in src/digital_twin/twin_controller.py.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
