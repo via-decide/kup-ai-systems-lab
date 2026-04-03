@@ -1,9 +1,9 @@
-Branch: simba/build-the-thermal-sync-utility-in-srcbridgejetso
-Title: Build the 'Thermal Sync' utility in src/bridge/jetson-thermal-check.p...
+Branch: simba/build-the-million-passage-dashboard-in-srcmonito
+Title: Build the 'Million-Passage Dashboard' in src/monitor/throughput.js. T...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Build the 'Thermal Sync' utility in src/bridge/jetson-thermal-check.py. Run the Kalman-filtered inference on the Jetson Orin NX and measure the $T_{junction}$ (junction temperature) and $J_{load}$ (GPU load).
+- Goal: Build the 'Million-Passage Dashboard' in src/monitor/throughput.js. Track: 1) Passages per second, 2) Token savings (vs. legacy), and 3) M4 Thermal Headroom ($T_{max} - T_{current}$).
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
