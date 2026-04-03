@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement the 'Multi-Lane Fleet Controller' in src/scaling/lane-orchestrator.js. This module must aggregate real-time TPM data from 20+ distributed edge nodes (Jetson Orins) into a single central dashboard.
+Create the 'Hardware Provisioning' script in scripts/setup-jetson.sh. This script should automate the installation of the Zayvora-Edge environment on the Jetson Orin NX, including the local inference engine and the 'Hardware-In-The-Loop' bridge.
 
 CONSTRAINTS
-Use the Sovereign theme to visualize concurrent vehicle scans across multiple highway segments. Implement an "Anomaly Heatmap" to identify high-risk zones for tire blowouts based on regional temperature peaks.
+The script must output a "Hardware Readiness Report" formatted for the Sovereign terminal theme. [span_12](start_span)It must specifically check for GPU availability and memory overhead to ensure high-accuracy inference in extreme climates[span_12](end_span).
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
