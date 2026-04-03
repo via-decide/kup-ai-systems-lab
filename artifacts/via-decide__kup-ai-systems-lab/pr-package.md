@@ -1,9 +1,9 @@
-Branch: simba/implement-the-multi-lane-fleet-controller-in-src
-Title: Implement the 'Multi-Lane Fleet Controller' in src/scaling/lane-orche...
+Branch: simba/create-the-hardware-provisioning-script-in-scrip
+Title: Create the 'Hardware Provisioning' script in scripts/setup-jetson.sh....
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement the 'Multi-Lane Fleet Controller' in src/scaling/lane-orchestrator.js. This module must aggregate real-time TPM data from 20+ distributed edge nodes (Jetson Orins) into a single central dashboard.
+- Goal: Create the 'Hardware Provisioning' script in scripts/setup-jetson.sh. This script should automate the installation of the Zayvora-Edge environment on the Jetson Orin NX, including the local inference engine and the 'Hardware-In-The-Loop' bridge.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
