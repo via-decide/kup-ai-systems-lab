@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement the 'DigitalTwin-Orchestrator' in src/digital_twin/twin_controller.py.
+Implement the 'Predictive Traffic Intelligence Engine' in src/simulation/traffic-predictor.py.
 
 CONSTRAINTS
-- Simulate a 1km highway corridor with 4 RSU nodes and up to 500 concurrent vehicles. - Each vehicle must publish telemetry every 100ms including: speed, axle_load, tire_pressure, GPS_position. - RSU nodes must aggregate telemetry and forward to the Infrastructure AI layer. - Maintain event throughput ≥ 10,000 telemetry packets per minute. - Log "DIGITAL_TWIN_ACTIVE: 1KM_CORRIDOR_SIMULATION_RUNNING".
+- Forecast vehicle density using rolling Markov model. - Predict congestion probability 5 minutes ahead. - Integrate sensor inputs from RSU nodes.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
