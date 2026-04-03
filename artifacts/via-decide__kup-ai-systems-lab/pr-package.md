@@ -1,9 +1,9 @@
-Branch: simba/implement-the-sanjiwani-health-monitor-in-srcmon
-Title: Implement the 'Sanjiwani Health Monitor' in src/monitoring/system-hea...
+Branch: simba/build-the-deepstream-vision-core-in-srcvisiondee
+Title: Build the 'DeepStream Vision Core' in src/vision/deepstream-pipeline....
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement the 'Sanjiwani Health Monitor' in src/monitoring/system-health.js. [span_13](start_span)[span_14](start_span)This module must ping the Mac Mini's local LLM (Vora), the SQLite database, the Telegram Bot, and the Jetson HITL bridge every 60 seconds[span_13](end_span)[span_14](end_span).
+- Goal: Build the 'DeepStream Vision Core' in src/vision/deepstream-pipeline.c. Integrate NVIDIA DeepStream SDK to process live camera feeds from the highway sensors. The pipeline must perform real-time tire segmentation and thermal anomaly detection.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
