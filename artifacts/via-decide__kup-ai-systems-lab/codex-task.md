@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement the 'Jetson Optimizer' in src/bridge/trt-exporter.py. Create a pipeline that takes the best-performing founder model and converts it into a TensorRT engine for the Jetson Orin NX.
+Implement the 'Site Topology Sync' in src/sim/topology-mapper.js. Map the physical locations of NHAI sensors, cameras, and Jetson Orin cabinets into the Digital Twin environment.
 
 CONSTRAINTS
-Measure and log the "Inference Latency" ($ms$) and "Power Consumption" ($W$). Ensure the Sovereign theme logs a "READY FOR NHAI PILOT" status once latency is <30ms.
+Calculate the expected network latency between the physical sensors and the edge node using the formula: $L_{total} = L_{prop} + L_{proc} + L_{queue}$. Use this to calibrate the "Scenario 2" packet-loss simulations.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
