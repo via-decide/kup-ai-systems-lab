@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement 'Ensemble-Voting' in src/engine/model-consensus.js. Aggregate predictions from the 3 local agents.
+Build the 'Visual-Refinery' in src/vision/thermal-verify.js. Use the Jetson's ISP to detect the 'IR-Blur' around a moving tire.
 
 RULES
 1. Audit touched files first and identify regressions.

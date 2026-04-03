@@ -1,9 +1,9 @@
-Branch: simba/implement-ensemble-voting-in-srcenginemodel-cons
-Title: Implement 'Ensemble-Voting' in src/engine/model-consensus.js. Aggrega...
+Branch: simba/build-the-visual-refinery-in-srcvisionthermal-ve
+Title: Build the 'Visual-Refinery' in src/vision/thermal-verify.js. Use the ...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement 'Ensemble-Voting' in src/engine/model-consensus.js. Aggregate predictions from the 3 local agents.
+- Goal: Build the 'Visual-Refinery' in src/vision/thermal-verify.js. Use the Jetson's ISP to detect the 'IR-Blur' around a moving tire.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
