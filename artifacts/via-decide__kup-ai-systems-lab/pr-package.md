@@ -1,9 +1,9 @@
-Branch: simba/implement-the-hardware-in-the-loop-hitl-connecto
-Title: Implement the 'Hardware-In-The-Loop' (HITL) connector in src/bridge/j...
+Branch: simba/implement-the-multi-lane-fleet-controller-in-src
+Title: Implement the 'Multi-Lane Fleet Controller' in src/scaling/lane-orche...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement the 'Hardware-In-The-Loop' (HITL) connector in src/bridge/jetson-sim-link.js. [span_14](start_span)Create a pipeline where the Digital Twin sends vehicle passages directly to a physical Jetson Orin NX for inference, rather than simulating the inference locally[span_14](end_span). [span_15](start_span)[span_16](start_span)constraints: Log the real-world latency and power consumption of the Jetson during 1M passage bursts[span_15](end_span)[span_16](end_span). [span_17](start_span)Ensure the Sovereign terminal theme displays a live comparison between "Simulated Latency" vs "Actual Edge Latency"[span_17](end_span).
+- Goal: Implement the 'Multi-Lane Fleet Controller' in src/scaling/lane-orchestrator.js. This module must aggregate real-time TPM data from 20+ distributed edge nodes (Jetson Orins) into a single central dashboard.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
