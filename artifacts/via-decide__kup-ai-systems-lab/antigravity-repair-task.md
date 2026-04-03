@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Visual-Refinery' in src/vision/thermal-verify.js. Use the Jetson's ISP to detect the 'IR-Blur' around a moving tire.
+Build the 'Hardware-Immune-System' in src/power/resilience-monitor.py.
 
 RULES
 1. Audit touched files first and identify regressions.
