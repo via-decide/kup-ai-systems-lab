@@ -1,9 +1,9 @@
-Branch: simba/implement-the-thermal-stress-profiler-in-srcbenc
-Title: Implement the 'Thermal Stress Profiler' in src/benchmarks/power-therm...
+Branch: simba/implement-the-inference-gatekeeper-in-srcvisionl
+Title: Implement the 'Inference Gatekeeper' in src/vision/logic-gate.c. Usin...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement the 'Thermal Stress Profiler' in src/benchmarks/power-thermal.py. Calculate the thermal dissipation requirement using the formula: $R_{th} = \frac{T_{junction} - T_{ambient}}{P_{total}}$.
+- Goal: Implement the 'Inference Gatekeeper' in src/vision/logic-gate.c. Using NVIDIA DeepStream, create a trigger that only activates full model inference if the "Motion Delta" or "Thermal Gradient" exceeds a specific threshold.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
