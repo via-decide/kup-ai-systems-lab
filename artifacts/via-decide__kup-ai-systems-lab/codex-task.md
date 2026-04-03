@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Build the 'Visual-Refinery' in src/vision/thermal-verify.js. Use the Jetson's ISP to detect the 'IR-Blur' around a moving tire.
+Build the 'Hardware-Immune-System' in src/power/resilience-monitor.py.
 
 CONSTRAINTS
-- Cross-reference visual 'Heat Pixels' against the $P/T$ drift estimate. - If divergence $> 15\%$, trigger a 'Sensor-Audit' alert. - Log "FUSION CHECK: PHYSICAL_TRUTH_VERIFIED".
+- Trigger 'Predictive Migration' if $T_{junction} > 95^{\circ}C$ for $> 300s$. - Use the 'Sovereign' failover protocol: $\text{Node}_{A} \rightarrow \text{Node}_{B}$ with 0-packet loss. - Log "IMMUNE_RESPONSE: HARDWARE_FATIGUE_DETECTED | MIGRATING_STATE".
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
