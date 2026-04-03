@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-systems-lab",
   "mode": "codex_then_antigravity",
-  "branch": "simba/build-the-edge-architect-agent-template-in-srcte",
+  "branch": "simba/implement-the-hardware-in-the-loop-hitl-connecto",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
