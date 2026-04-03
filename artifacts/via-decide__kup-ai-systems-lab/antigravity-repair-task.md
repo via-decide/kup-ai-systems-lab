@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Build the 'Sovereign-Mesh' sync in src/network/gossip-sync.js. Implement a protocol where each Mac Mini shares its local 'Anomaly Signatures' with the 3 nearest nodes.
+Implement 'Ensemble-Voting' in src/engine/model-consensus.js. Aggregate predictions from the 3 local agents.
 
 RULES
 1. Audit touched files first and identify regressions.
