@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement the 'Site Topology Sync' in src/sim/topology-mapper.js. Map the physical locations of NHAI sensors, cameras, and Jetson Orin cabinets into the Digital Twin environment.
+Build the 'Drift Debugger' in src/debug/context-rot-detect.py. Develop a script that calculates the "Semantic Entropy" of the LLM's output. If the entropy score spikes (indicating the model is guessing rather than reasoning), flag the specific sensor passage for manual re-labeling.
 
 CONSTRAINTS
-Calculate the expected network latency between the physical sensors and the edge node using the formula: $L_{total} = L_{prop} + L_{proc} + L_{queue}$. Use this to calibrate the "Scenario 2" packet-loss simulations.
+Use the LaTeX formula for Entropy: $H(X) = -\sum_{i=1}^{n} P(x_i) \log P(x_i)$. Log the "Entropy Spike" in the Sovereign terminal to alert the founder.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
