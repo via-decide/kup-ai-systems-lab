@@ -1,9 +1,9 @@
-Branch: simba/implement-the-digitaltwin-orchestrator-in-srcdig
-Title: Implement the 'DigitalTwin-Orchestrator' in src/digital_twin/twin_con...
+Branch: simba/implement-the-predictive-traffic-intelligence-en
+Title: Implement the 'Predictive Traffic Intelligence Engine' in src/simulat...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement the 'DigitalTwin-Orchestrator' in src/digital_twin/twin_controller.py.
+- Goal: Implement the 'Predictive Traffic Intelligence Engine' in src/simulation/traffic-predictor.py.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

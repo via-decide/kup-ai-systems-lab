@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-systems-lab",
   "mode": "codex_then_antigravity",
-  "branch": "simba/implement-the-digitaltwin-orchestrator-in-srcdig",
+  "branch": "simba/implement-the-predictive-traffic-intelligence-en",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
