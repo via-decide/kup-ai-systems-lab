@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Physical Stream Ingestor' in src/bridge/nhai-sync.js. Create a secure WebSocket listener that maps raw telemetry from the NH-41 physical sensors (Kistler WIM + Thermal Cameras) into the 'Scenario 2' refinery.
+Build the 'Sovereign-Mesh' sync in src/network/gossip-sync.js. Implement a protocol where each Mac Mini shares its local 'Anomaly Signatures' with the 3 nearest nodes.
 
 RULES
 1. Audit touched files first and identify regressions.
