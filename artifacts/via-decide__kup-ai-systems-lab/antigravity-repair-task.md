@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Implement the 'Jetson Optimizer' in src/bridge/trt-exporter.py. Create a pipeline that takes the best-performing founder model and converts it into a TensorRT engine for the Jetson Orin NX.
+Implement the 'Site Topology Sync' in src/sim/topology-mapper.js. Map the physical locations of NHAI sensors, cameras, and Jetson Orin cabinets into the Digital Twin environment.
 
 RULES
 1. Audit touched files first and identify regressions.
