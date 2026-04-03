@@ -1,9 +1,9 @@
-Branch: simba/implement-the-site-topology-sync-in-srcsimtopolo
-Title: Implement the 'Site Topology Sync' in src/sim/topology-mapper.js. Map...
+Branch: simba/build-the-drift-debugger-in-srcdebugcontext-rot-
+Title: Build the 'Drift Debugger' in src/debug/context-rot-detect.py. Develo...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement the 'Site Topology Sync' in src/sim/topology-mapper.js. Map the physical locations of NHAI sensors, cameras, and Jetson Orin cabinets into the Digital Twin environment.
+- Goal: Build the 'Drift Debugger' in src/debug/context-rot-detect.py. Develop a script that calculates the "Semantic Entropy" of the LLM's output. If the entropy score spikes (indicating the model is guessing rather than reasoning), flag the specific sensor passage for manual re-labeling.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
