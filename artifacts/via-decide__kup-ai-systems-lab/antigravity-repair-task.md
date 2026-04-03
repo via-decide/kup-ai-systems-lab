@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Create the 'National Rollout Blueprint' generator in src/expansion/rollout-template.js. This module must pull data-centric AI reference architectures and edge inference cost-benchmarks from the lab's history and compile them into a ready-to-deploy RFP (Request for Proposal) template. [span_9](start_span)constraints: Ensure the blueprint emphasizes why the "Kutch Extreme Climate" proof-of-concept makes the system robust for any tropical or subtropical region[span_9](end_span).
+Implement the 'Sanjiwani Health Monitor' in src/monitoring/system-health.js. [span_13](start_span)[span_14](start_span)This module must ping the Mac Mini's local LLM (Vora), the SQLite database, the Telegram Bot, and the Jetson HITL bridge every 60 seconds[span_13](end_span)[span_14](end_span).
 
 RULES
 1. Audit touched files first and identify regressions.
