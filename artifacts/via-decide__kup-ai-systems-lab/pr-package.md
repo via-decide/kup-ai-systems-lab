@@ -1,9 +1,9 @@
-Branch: simba/implement-the-regional-calibrator-in-srcexpansio
-Title: Implement the 'Regional Calibrator' in src/expansion/heat-calibration...
+Branch: simba/implement-the-jetson-optimizer-in-srcbridgetrt-e
+Title: Implement the 'Jetson Optimizer' in src/bridge/trt-exporter.py. Creat...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement the 'Regional Calibrator' in src/expansion/heat-calibration.js. Create a script that automatically adjusts the 'Scenario 2' chaos parameters (temperature-drift thresholds) based on local meteorological data for the new deployment zone.
+- Goal: Implement the 'Jetson Optimizer' in src/bridge/trt-exporter.py. Create a pipeline that takes the best-performing founder model and converts it into a TensorRT engine for the Jetson Orin NX.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
