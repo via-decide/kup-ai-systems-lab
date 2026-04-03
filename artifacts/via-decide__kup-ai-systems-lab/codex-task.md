@@ -1,7 +1,7 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement the 'Regional Rollout Engine' in src/expansion/national-deploy.js. Create a configuration-driven deployment script that clones the 'Kutch Reference Architecture' for new geographical zones. [span_5](start_span)[span_6](start_span)constraints: The script must adjust the 'Scenario 2' chaos parameters automatically based on local climate data (e.g., adjusting the temperature drift threshold for Rajasthan's heat).[span_5](end_span)[span_6](end_span)
+Build the 'Port Logistics Adapter' in src/templates/port-adaptation.json. [span_26](start_span)[span_27](start_span)Use the Jetson Orin architecture defined for the Deendayal Port partner to re-train the Vora model for heavy-duty fleet tire monitoring[span_26](end_span)[span_27](end_span). [span_28](start_span)constraints: The adapter must use the "Data-Centric AI" principle: correcting 10% of mislabeled training data from port environments is more valuable than doubling model complexity[span_28](end_span).
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
