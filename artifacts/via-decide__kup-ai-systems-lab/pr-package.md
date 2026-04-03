@@ -1,9 +1,9 @@
-Branch: simba/create-the-national-rollout-blueprint-generator-
-Title: Create the 'National Rollout Blueprint' generator in src/expansion/ro...
+Branch: simba/implement-the-sanjiwani-health-monitor-in-srcmon
+Title: Implement the 'Sanjiwani Health Monitor' in src/monitoring/system-hea...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Create the 'National Rollout Blueprint' generator in src/expansion/rollout-template.js. This module must pull data-centric AI reference architectures and edge inference cost-benchmarks from the lab's history and compile them into a ready-to-deploy RFP (Request for Proposal) template. [span_9](start_span)constraints: Ensure the blueprint emphasizes why the "Kutch Extreme Climate" proof-of-concept makes the system robust for any tropical or subtropical region[span_9](end_span).
+- Goal: Implement the 'Sanjiwani Health Monitor' in src/monitoring/system-health.js. [span_13](start_span)[span_14](start_span)This module must ping the Mac Mini's local LLM (Vora), the SQLite database, the Telegram Bot, and the Jetson HITL bridge every 60 seconds[span_13](end_span)[span_14](end_span).
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
