@@ -1,9 +1,9 @@
-Branch: simba/implement-duty-cycle-management-in-srcpowerjetso
-Title: Implement 'Duty-Cycle Management' in src/power/jetson-pulse.py. Creat...
+Branch: simba/implement-the-physical-stream-ingestor-in-srcbri
+Title: Implement the 'Physical Stream Ingestor' in src/bridge/nhai-sync.js. ...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement 'Duty-Cycle Management' in src/power/jetson-pulse.py. Create a trigger that only ramps the GPU to 'Max-P' (Performance) mode when the thermal sensor detects a vehicle approach, then returns to 'Quiet' mode.
+- Goal: Implement the 'Physical Stream Ingestor' in src/bridge/nhai-sync.js. Create a secure WebSocket listener that maps raw telemetry from the NH-41 physical sensors (Kistler WIM + Thermal Cameras) into the 'Scenario 2' refinery.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement 'Duty-Cycle Management' in src/power/jetson-pulse.py. Create a trigger that only ramps the GPU to 'Max-P' (Performance) mode when the thermal sensor detects a vehicle approach, then returns to 'Quiet' mode.
+Implement the 'Physical Stream Ingestor' in src/bridge/nhai-sync.js. Create a secure WebSocket listener that maps raw telemetry from the NH-41 physical sensors (Kistler WIM + Thermal Cameras) into the 'Scenario 2' refinery.
 
 CONSTRAINTS
-- Calculate the total power saved in Watts ($W$) per 24-hour cycle. - Log "POWER SAVED: [X]Wh | SILICON LIFE EXTENDED" in the Sovereign terminal.
+- Use the 'Sovereign' Auth-Token system to prevent unauthorized data injection. - Log "PHYSICAL SYNC ACTIVE: [SITE_ID]" in the terminal. - Ensure the 'Edge Architect' agent validates that real-world noise matches the $D_{KL}$ simulated baseline.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
