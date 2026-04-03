@@ -1,9 +1,9 @@
-Branch: simba/implement-the-inference-gatekeeper-in-srcvisionl
-Title: Implement the 'Inference Gatekeeper' in src/vision/logic-gate.c. Usin...
+Branch: simba/build-the-vision-translator-in-srcvisionmetadata
+Title: Build the 'Vision Translator' in src/vision/metadata-bridge.js. Extra...
 
 ## Summary
 - Repo orchestration task for via-decide/kup-ai-systems-lab
-- Goal: Implement the 'Inference Gatekeeper' in src/vision/logic-gate.c. Using NVIDIA DeepStream, create a trigger that only activates full model inference if the "Motion Delta" or "Thermal Gradient" exceeds a specific threshold.
+- Goal: Build the 'Vision Translator' in src/vision/metadata-bridge.js. Extract the JSON metadata from the DeepStream inference (e.g., bounding box confidence, thermal heat-map delta) and inject it as a "Vision Context" into the Vora LLM prompt.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
