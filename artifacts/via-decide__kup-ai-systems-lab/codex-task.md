@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Create the 'National Rollout Blueprint' generator in src/expansion/rollout-template.js. This module must pull data-centric AI reference architectures and edge inference cost-benchmarks from the lab's history and compile them into a ready-to-deploy RFP (Request for Proposal) template. [span_9](start_span)constraints: Ensure the blueprint emphasizes why the "Kutch Extreme Climate" proof-of-concept makes the system robust for any tropical or subtropical region[span_9](end_span).
+Implement the 'Sanjiwani Health Monitor' in src/monitoring/system-health.js. [span_13](start_span)[span_14](start_span)This module must ping the Mac Mini's local LLM (Vora), the SQLite database, the Telegram Bot, and the Jetson HITL bridge every 60 seconds[span_13](end_span)[span_14](end_span).
 
 CONSTRAINTS
-Preserve existing code; prefer additive changes.
+If any core pillar of the KUP pipeline fails, the Sovereign terminal must display a "MISSION CRITICAL FAILURE" alert and automatically trigger a backup hand-off to the Claude/Codex API to maintain 99.9% uptime for the 30 founders.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
