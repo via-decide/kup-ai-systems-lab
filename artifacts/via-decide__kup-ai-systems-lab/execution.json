@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/kup-ai-systems-lab",
   "mode": "codex_then_antigravity",
-  "branch": "simba/implement-the-sanjiwani-health-monitor-in-srcmon",
+  "branch": "simba/build-the-deepstream-vision-core-in-srcvisiondee",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
