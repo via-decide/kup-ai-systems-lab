@@ -1,10 +1,10 @@
 You are working in repository via-decide/kup-ai-systems-lab on branch main.
 
 MISSION
-Implement the 'Hardware-In-The-Loop' (HITL) connector in src/bridge/jetson-sim-link.js. [span_14](start_span)Create a pipeline where the Digital Twin sends vehicle passages directly to a physical Jetson Orin NX for inference, rather than simulating the inference locally[span_14](end_span). [span_15](start_span)[span_16](start_span)constraints: Log the real-world latency and power consumption of the Jetson during 1M passage bursts[span_15](end_span)[span_16](end_span). [span_17](start_span)Ensure the Sovereign terminal theme displays a live comparison between "Simulated Latency" vs "Actual Edge Latency"[span_17](end_span).
+Implement the 'Multi-Lane Fleet Controller' in src/scaling/lane-orchestrator.js. This module must aggregate real-time TPM data from 20+ distributed edge nodes (Jetson Orins) into a single central dashboard.
 
 CONSTRAINTS
-Preserve existing code; prefer additive changes.
+Use the Sovereign theme to visualize concurrent vehicle scans across multiple highway segments. Implement an "Anomaly Heatmap" to identify high-risk zones for tire blowouts based on regional temperature peaks.
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
